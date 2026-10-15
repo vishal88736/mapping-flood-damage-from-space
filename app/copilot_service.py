@@ -530,7 +530,7 @@ def respond(run,question,language='en',history=None):
     if lists:
         text += '\n\n' + '\n'.join(item['summary'] for item in lists)
     return {'answer':text,'intent':intent,'intent_confidence':confidence,'evidence':evidence,
-            'method':'Groq structured tool calling + validated facts' if generation.mode=='llm' else 'Deterministic bilingual topic routing; contextual typed evidence retrieval',
+            'method':'Groq-assisted answer; validated saved evidence' if generation.mode=='llm' else 'Deterministic answer; validated saved evidence',
             'run_id':context.run_id,'language':language,'facts':[f.model_dump(mode='json') for f in facts],
             'generation':generation.model_dump(mode='json'),'missing_fact_ids':[f.fact_id for f in facts if f.status!='available'],
             'draft':draft.model_dump(mode='json'), 'lists': lists,

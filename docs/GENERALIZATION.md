@@ -19,6 +19,8 @@ The subsequent [six remaining hardcoding repairs](REMAINING_HARDCODING_REPAIRS.m
 
 ## Configuration
 
+The subsequent [behavioral follow-up](BEHAVIORAL_HARDCODING_FOLLOWUP.md) changes the default Groq flow to semantic question interpretation followed by grounded composition. Earlier request totals below are historical; a fresh answer now normally uses two requests, while identical repeats reuse both phases with zero new requests/tokens.
+
 | File or environment variable | Purpose |
 | --- | --- |
 | `app/mapping.toml` | Versioned water/debris/terrain/access/SCL rules, median window/support, road tolerance, settlement tags and labeled destination profiles |

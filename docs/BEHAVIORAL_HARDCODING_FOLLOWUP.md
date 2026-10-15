@@ -29,7 +29,11 @@ Live Groq checks used the saved real CDSE analysis `c2f74c94-af7f-426a-bc02-e66b
 - Nepali: “अस्पतालतर्फ बाटो नपुग्ने बस्तीको सूची दिनुहोस्।” selected `status=not_connected`, `destination_type=hospital`.
 - Both used **two requests**, returned validated evidence, omitted unrelated water facts and reused identical answers with **zero new requests/tokens**. The saved source result remained unchanged.
 
-The live record is `output/qa/semantic-query-live-verification.json`. These checks used previously acquired real inputs; this follow-up did not make a fresh satellite processing request. Native-speaker review and independent mapping/field validation remain separate work.
+The live bilingual record is `output/qa/semantic-query-live-verification.json`. A check after restarting the app also generated an actual Groq situation report: all 25 frozen report facts matched the saved analysis, HTML/JSON exports succeeded, and a repeated report used zero new requests/tokens. The record is `output/qa/semantic-repair-api-verification.json`. Response method labels now describe Groq assistance and evidence validation without claiming tool calls when application retrieval supplied the facts.
+
+The browser check in `output/qa/semantic-repair-browser/checks.json` passed at 360, 768 and 1280 pixels with no page errors, including saved-run selection, unavailable-class labels, feature details, Nepali fact links and complete settlement lists. Its chat checks explicitly used the local fallback and spent no provider quota; live Groq verification is recorded separately above.
+
+These checks used previously acquired real inputs; this follow-up did not make a fresh satellite processing request. Native-speaker review and independent mapping/field validation remain separate work.
 
 ## What is still fixed, explicitly
 

@@ -1,5 +1,7 @@
 # Track B Copilot completion checklist
 
+Latest behavioral repair and live query validation: [BEHAVIORAL_HARDCODING_FOLLOWUP.md](BEHAVIORAL_HARDCODING_FOLLOWUP.md). The primary Groq path now interprets scope by meaning before retrieving saved facts; fixed phrase routing is the labeled fallback.
+
 Checked against the local `Track B.pdf`. The selected AI component is the situation-report copilot; segmentation-model training is the alternative route and is not required for this selection.
 
 Latest custom-area/provider/quota repairs and verification: [GENERALIZATION.md](GENERALIZATION.md). Older submission PDFs/video remain dated snapshots; the new acquisition fixes do not rewrite those artifacts.
