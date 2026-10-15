@@ -35,7 +35,8 @@
     "duration_seconds": 180,
     "codec": "h264",
     "width": 1280,
-    "height": 900
+    "height": 900,
+    "retained": false
   },
   "actual_inputs": [
     "Sentinel-1",
@@ -52,5 +53,9 @@
     "docs/actual-situation-report-en.pdf": "8815c6b2afcfd78f34517fa132390048abd9a0dff25e1a65c561cba8c2921245",
     "docs/actual-situation-report-ne.pdf": "f7290229bacf408308c1ab1a46405554b413fc78a72ede8ab2ff3cec319f4265"
   },
-  "repository": "https://github.com/vishal88736/mapping-flood-damage-from-space"
+  "repository": "https://github.com/vishal88736/mapping-flood-damage-from-space",
+  "artifact_retention": {
+    "latest_video": "output/video/flooline-repaired-demo.mp4",
+    "note": "Older videos were removed at the user request. Original video measurements and checksums above are historical records, not current file availability."
+  }
 }

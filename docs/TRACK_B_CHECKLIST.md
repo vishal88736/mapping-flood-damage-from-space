@@ -22,7 +22,7 @@ The subsequent [integrated repairs](INTEGRATED_REPAIRS.md) verify negative expos
 | Map dashboard | Browser checks passed at 360/768/1280 px; bilingual citations, settlement/hospital evidence, full lists and map links work |
 | Repository and run README | README/configuration/CLI instructions updated locally; existing origin is `vishal88736/mapping-flood-damage-from-space`. Repair changes are not committed/pushed by this task |
 | Report, maximum six pages, including limitations | Rebuilt `docs/technical-report.pdf` and `output/pdf/copilot-technical-report.pdf`, with editable Markdown source |
-| Three-minute demo | New `output/video/flooline-repaired-demo.mp4`, exactly 180 seconds, captioned, actual Groq answers/report, saved real inputs, attribution and checksum manifest. Previous user recording preserved |
+| Three-minute demo | `output/video/flooline-repaired-demo.mp4`, exactly 180 seconds, captioned, actual Groq answers/report, saved real inputs, attribution and checksum manifest. Only the latest video is retained |
 | Required attribution and training citations | Sentinel/WorldDEM/OSM credits present. EMS reference credited. No external satellite training dataset is used by this route; archived training artifacts retain their own citations |
 | Case study compared with EMSR927 | Extent and official asset comparisons executed independently and packaged in `output/case-study/`. Both are N/A because matching/joint debris observations are unavailable; no water accuracy is claimed |
 | Bonus upstream trace | DEM downhill trace and nearby settlements implemented; screening only, not hydraulic simulation |

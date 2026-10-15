@@ -1,6 +1,6 @@
 # Three-minute Situation-Report Copilot demonstration
 
-The current repaired recording is [output/video/flooline-repaired-demo.mp4](../output/video/flooline-repaired-demo.mp4), with a [source/response manifest](../output/video/flooline-repaired-demo.json). It uses cached real CDSE run `0717d3b1-ac72-48d2-a8bb-8ecb93e9663c`. English/Nepali chat and the Nepali report used genuine Groq responses. It has burned-in captions and no voiceover. It does not show a new acquisition or prove all judge-selected AOIs/dates. The previous `flooline-final-demo.*` user artifacts are preserved.
+The current repaired recording is [output/video/flooline-repaired-demo.mp4](../output/video/flooline-repaired-demo.mp4), with a [source/response manifest](../output/video/flooline-repaired-demo.json). It uses cached real CDSE run `0717d3b1-ac72-48d2-a8bb-8ecb93e9663c`. English/Nepali chat and the Nepali report used genuine Groq responses. It has burned-in captions and no voiceover. It does not show a new acquisition or prove all judge-selected AOIs/dates. Older videos and their obsolete manifests have been removed; narration text is retained.
 
 The final playback cues below match the revised narration. The 1:48–2:00 section demonstrates the source-provenance panel; replace that section of any audio made from the earlier script. Each scene is edited independently, so provider latency does not shift the later sections. Read at approximately 125 words per minute; fit the generated audio to these cues. The MP4 intentionally has no audio track.
 

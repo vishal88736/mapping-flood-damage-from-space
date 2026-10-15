@@ -46,7 +46,7 @@ The exporter also accepts `--verified-api-record output/qa/copilot-e2e.json` to 
 
 ## Current recording and reproduction
 
-[Watch the current repaired demo](../output/video/flooline-repaired-demo.mp4). The companion JSON records the source run, acquisition mode, captions, actual response engines and output checksum. It is a captioned recording without voiceover of cached real CDSE run `0717d3b1-ac72-48d2-a8bb-8ecb93e9663c`. It includes genuine English/Nepali Groq questions, linked evidence, uncertain settlement access, source-provenance inspection, a genuine Groq-assisted Nepali report, N/A evaluation and credits. No new acquisition is shown. Previous `flooline-final-demo.*` user artifacts are unchanged.
+[Watch the current repaired demo](../output/video/flooline-repaired-demo.mp4). The companion JSON records the source run, acquisition mode, captions, actual response engines and output checksum. It is a captioned recording without voiceover of cached real CDSE run `0717d3b1-ac72-48d2-a8bb-8ecb93e9663c`. It includes genuine English/Nepali Groq questions, linked evidence, uncertain settlement access, source-provenance inspection, a genuine Groq-assisted Nepali report, N/A evaluation and credits. No new acquisition is shown. Only this latest video and its manifest are retained.
 
 The recorder uses an isolated Chromium context and never captures a private browser profile or credentials. To reproduce it, start `./run.sh`, install Playwright's video encoder once if needed, then run:
 
@@ -56,7 +56,7 @@ uv run python scripts/record_demo.py --run-id REAL_RUN_UUID --require-llm \
   --output output/video/flooline-repaired-demo.mp4
 ```
 
-The actual response engine remains visible. Each scene is edited to the fixed cues in [the narration](demo-script.md); the MP4 is exactly three minutes and is not a runtime benchmark. `--require-llm` rejects fallback for supported questions and the generated report. Preserved [narration text](../output/video/flooline-final-voiceover.txt) and [timed cues](../output/video/flooline-final-voiceover.srt) remain available for adding audio. Synthetic previews require explicit `--preview` and keep their label. Archived `docs/` videos show the removed segmentation implementation.
+The actual response engine remains visible. Each scene is edited to the fixed cues in [the narration](demo-script.md); the MP4 is exactly three minutes and is not a runtime benchmark. `--require-llm` rejects fallback for supported questions and the generated report. Preserved [narration text](../output/video/flooline-final-voiceover.txt) and [timed cues](../output/video/flooline-final-voiceover.srt) remain available for adding audio. Synthetic previews require explicit `--preview` and keep their label. Older videos, including the historical segmentation recordings under `docs/`, have been removed.
 
 ## Remaining external inputs
 

@@ -6,7 +6,7 @@ The chosen Track B AI component is the **situation-report copilot**. Mapping use
 
 ## Current demo
 
-**[Watch the repaired three-minute demo](output/video/flooline-repaired-demo.mp4)** — captioned screen recording using cached real CDSE inputs and historical OSM, with English/Nepali Groq answers, map citations, access uncertainty, a Groq-assisted report and evaluation limitations. It has no voiceover and does not show a new acquisition. [Recording manifest](output/video/flooline-repaired-demo.json). The earlier user recording remains preserved separately.
+**[Watch the repaired three-minute demo](output/video/flooline-repaired-demo.mp4)** — captioned screen recording using cached real CDSE inputs and historical OSM, with English/Nepali Groq answers, map citations, access uncertainty, a Groq-assisted report and evaluation limitations. It has no voiceover and does not show a new acquisition. [Recording manifest](output/video/flooline-repaired-demo.json). Only this latest video is retained.
 
 ## Run
 
